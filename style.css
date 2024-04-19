@@ -1,0 +1,99 @@
+html{
+    font-size: 10px;
+}
+body{
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    background: url(https://cdn.dribbble.com/users/189524/screenshots/2103470/01-black-cat_800x600_v1.gif);
+    
+    background-color: rgba(0, 0, 0,0.4);
+    background-position: center;
+    background-size: contain;
+    width: 99%;
+    height: 97vh;
+}
+@keyframes color {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 0 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+    
+}
+.tablePrinter {
+    /* border: 2px solid black; */
+    font-size: 3rem;
+    
+    /* font-weight: 600; */
+    position: relative;
+    right:2rem;
+    /* bottom: 7rem; */
+    font-family: monospace;
+    background: url(https://i.pinimg.com/originals/5d/e4/9e/5de49efbbcbe34c9fcc5863c744f8bcf.jpg) no-repeat ;
+    background-size: cover;
+    /* height: 100%; */
+    color: white;
+    border-radius: 12px;
+    font-stretch: semi-expanded;
+}
+#tableInput {
+    width: 15rem;
+    border-radius: 12px;
+    /* height: 8rem; */
+    font-size: 2.5rem;
+    margin-top: 40px;
+    text-align: center;
+    background-color: gray;
+    color: azure;
+    font-weight: 700;
+    font-family:monospace ;
+    position: relative;
+    bottom: 20px;
+}
+#inputForm {
+    padding: 1.2rem;
+    border-radius: 20px;
+}
+.tablePrinter {
+    background-color: rgba(128, 128, 128,0.5);
+    padding: 2rem;
+}
+#submitBtn {
+    width: 12rem;
+    height: 5vh;
+    position: relative;
+    bottom: 2.5rem;
+    left: 1.5rem;
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    border: none;
+    background-color: gray;
+    color: aliceblue;
+    border-radius: 0.7rem ;
+    letter-spacing: 0.7rem;
+}
+#submitBtn:hover{
+    cursor: pointer;
+    border-bottom:2px solid black;
+}
+#tableInput:hover{
+    cursor: pointer;
+    border: 3px solid black;
+}
+#tableInput:focus{
+    border: 5px solid blue;
+    /* background-color:wheat; */
+    color: black;
+}
+
+
