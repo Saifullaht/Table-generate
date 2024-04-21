@@ -12,8 +12,8 @@ body{
     background: url(https://cdn.dribbble.com/users/189524/screenshots/2103470/01-black-cat_800x600_v1.gif) no-repeat;
     
     background-color: rgba(0, 0, 0,0.4);
-    background-position: center;
-    background-size: contain;
+    
+    background-size: cover;
     width: 99%;
     height: 97vh;
 }
