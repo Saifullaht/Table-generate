@@ -12,23 +12,14 @@ body{
     background: url(https://cdn.dribbble.com/users/189524/screenshots/2103470/01-black-cat_800x600_v1.gif) no-repeat;
     
     background-color: rgba(0, 0, 0,0.4);
-    
+    background-position: center;
     background-size: cover;
     width: 99%;
     height: 97vh;
 }
-@keyframes color {
-    0%{
-        background-position: 0 50%;
-    }
-    50%{
-        background-position: 0 50%;
-    }
-    100%{
-        background-position: 0 50%;
-    }
+
     
-}
+
 .tablePrinter {
     /* border: 2px solid black; */
     font-size: 3rem;
