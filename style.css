@@ -9,7 +9,7 @@ body{
     flex-direction: column;
     align-items: center;
     gap: 2rem;
-    background: url(https://cdn.dribbble.com/users/189524/screenshots/2103470/01-black-cat_800x600_v1.gif);
+    background: url(https://cdn.dribbble.com/users/189524/screenshots/2103470/01-black-cat_800x600_v1.gif) no-repeat;
     
     background-color: rgba(0, 0, 0,0.4);
     background-position: center;
@@ -40,6 +40,7 @@ body{
     font-family: monospace;
     background: url(https://i.pinimg.com/originals/5d/e4/9e/5de49efbbcbe34c9fcc5863c744f8bcf.jpg) no-repeat ;
     background-size: cover;
+    background-position: center;
     /* height: 100%; */
     color: white;
     border-radius: 12px;
